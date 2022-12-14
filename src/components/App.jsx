@@ -36,6 +36,7 @@ export class App extends React.Component {
   };
 
   render() {
+    console.log('Тест', this.state);
     const { contacts } = this.state;
 
     return (

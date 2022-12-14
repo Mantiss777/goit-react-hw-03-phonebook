@@ -17,6 +17,8 @@ class ContactList extends Component {
     const filteredContacts = contacts.filter(it =>
       it.name.toLowerCase().includes(filter.toLowerCase())
     );
+
+    console.log('тест фільтр', filteredContacts);
     return (
       <section className={css.container}>
         <h2>Contacts</h2>
